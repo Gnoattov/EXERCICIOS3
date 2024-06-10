@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5</title>
+</head>
+<body>
+<h1>Litros de Gasolina</h1>
+<form id="formCalculadora">
+    <label for="precoLitro">Preço do Litro de Gasolina (R$):</label>
+    <input type="number" id="precoLitro" name="precoLitro" step="0.01" required>
+    <br>
+    <label for="valorPagamento">Valor do Pagamento (R$):</label>
+    <input type="number" id="valorPagamento" name="valorPagamento" step="0.01" required>
+    <br>
+    <button type="button" onclick="calcularLitros()">Calcular</button>
+</form>
+<div id="resultado"></div>
+
+<script src="5.JS"></script>
+</body>
+</html>
